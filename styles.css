@@ -1,0 +1,98 @@
+body {
+  background-image: url("wallpaper.png");
+  background-size: cover;
+}
+
+.wrapper {
+  text-align: center;
+  font-family: "Trebuchet MS", "Helvetica", sans-serif;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 30px;
+  color: #444444;
+}
+
+.textarea {
+  display: block;
+  width: 700px;
+  height: 200px;
+  margin: 10px auto 10px;
+  padding: 10px;
+  font-size: 18px;
+  color: #444444;
+  white-space: break-spaces;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.textarea:focus-visible {
+  outline: none;
+}
+
+.keyboard {
+  width: 704px;
+  margin: 0 auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 8px;
+  background: transparent;
+  border: 3px solid #011a2f;
+  border-radius: 5px;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.key {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  background: #5c8698;
+  border-radius: 3px;
+  border: 1px solid #011a2f;
+  cursor: pointer;
+  user-select: none;
+  transition: border-radius 0.3s, background-color 0.3s;
+}
+.key:hover {
+  background: #FFB273;
+}
+.key.active {
+  background-color: #FF7400;
+  border-radius: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.Backspace, .CapsLock, .ShiftLeft {
+  width: 100px;
+}
+
+.Tab {
+  width: 50px;
+}
+
+.Enter, .ShiftRight {
+  width: 86px;
+}
+
+.Space {
+  width: 330px;
+}
+
+.AltLeft, .AltRight, .ArrowUp, .ArrowLeft, .ArrowDown, .ArrowRight, .Backspace, .CapsLock, .ControlLeft, .ControlRight, .Delete, .Enter, .ShiftLeft, .ShiftRight, .Tab, .MetaLeft {
+  font-weight: 600;
+  background-color: #2e4757;
+}
+
+/*# sourceMappingURL=styles.css.map */
