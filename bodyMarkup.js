@@ -4,11 +4,20 @@ document.querySelector('body').innerHTML = `
   <textarea class="body--textarea textarea" id="textarea" rows="5" cols="50"></textarea>
   <div class="body--keyboard keyboard" id="keyboard">
     <div class="keyboard--row row">
-      <div class="keyboard--key key Backquote"><span class="rus hidden"><span class="caseDown hidden">ё</span><span
-          class="caseUp hidden">Ё</span><span class="caps hidden">Ё</span><span
-          class="shiftCaps hidden">ё</span></span><span class="eng"><span class="caseDown">\`</span><span
-          class="caseUp hidden">~</span><span class="caps hidden">\`</span><span
-          class="shiftCaps hidden">~</span></span></div>
+      <div class="keyboard--key key Backquote">
+        <span class="rus hidden">
+          <span class="caseDown hidden">ё</span>
+          <span class="caseUp hidden">Ё</span>
+          <span class="caps hidden">Ё</span>
+          <span class="shiftCaps hidden">ё</span>
+        </span>
+          <span class="eng">
+          <span class="caseDown">\`</span>
+          <span class="caseUp hidden">~</span>
+          <span class="caps hidden">\`</span>
+          <span class="shiftCaps hidden">~</span>
+        </span>
+      </div>
       <div class="keyboard--key key Digit1"><span class="rus hidden"><span class="caseDown hidden">1</span><span
           class="caseUp hidden">!</span><span class="caps hidden">1</span><span
           class="shiftCaps hidden">!</span></span><span class="eng"><span class="caseDown">1</span><span
